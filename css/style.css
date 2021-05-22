@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+* {
+  font-family: "EB Garamond", serif;
+  color: #b0b0b0;
+  background: #062232;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2em;
+  margin-left: 7vw;
+}
+
+.map-link {
+  margin-right: 5vw;
+  font-size: 1.1em;
+}
+
+a {
+  text-decoration: none;
+}
+.header-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 7vh;
+}
+
+.card-data {
+  height: 40vh;
+  width: 18vw;
+  border: 1px solid #b0b0b0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.card-temp {
+  font-size: 2.4em;
+}
+.card-city {
+  font-size: 1.5em;
+}
+
+.card-day {
+  margin-top: 20px;
+  font-size: 1.3em;
+}
+
+.form-search {
+  margin-top: 15vh;
+  margin-left: 31vw;
+  display: flex;
+  align-items: center;
+}
+
+.form-city {
+  height: 7vh;
+  width: 20vw;
+  padding-left: 15px;
+  font-size: 1.3em;
+  border: none;
+  border: 1px solid #b0b0b0;
+  border-radius: 25px;
+  outline: none;
+}
+
+.form-submit {
+  height: 8vh;
+  width: 10vw;
+  border: none;
+  border: 1px solid #b0b0b0;
+  border-radius: 25px;
+  outline: none;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+  font-size: 1.1em;
+}
+
+.form-submit:hover {
+  background: #b0b0b0;
+  color: black;
+}
+
+.line {
+  width: 40vw;
+  height: 0.5px;
+  background-color: #b0b0b0;
+  margin-left: 28vw;
+  margin-top: 8vh;
+  opacity: 0.5;
+}
+
+.city-data {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  background: transparent;
+}
+
+.city-name {
+  font-size: 2.8em;
+}
+
+.city-day {
+  margin-top: 12px;
+  font-size: 1.4em;
+}
+.city-temp {
+  font-size: 2.2em;
+}
+
+.digit {
+  color: yellow;
+}
+
+.city-data-rectangle {
+  height: 30vh;
+  width: 74vw;
+  border: 1px solid #b0b0b0;
+  border-radius: 25px;
+  position: absolute;
+  top: 94vh;
+  left: 13vw;
+  /* z-index: -1; */
+  background: transparent;
+  display: none;
+}
+
+.four-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40vh;
+}
+
+.four-one-card {
+  margin: 0 30px;
+  border: 1px solid #b0b0b0;
+  border-radius: 25px;
+  padding: 40px 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.four-day {
+  font-size: 1.9em;
+}
+
+.four-min-max {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.four-max,
+.four-min {
+  font-size: 0.9em;
+  margin: 0 10px;
+}
+
+.four-min-temp,
+.four-max-temp {
+  font-size: 1.3em;
+}
